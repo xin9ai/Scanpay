@@ -1,2 +1,21 @@
-<!--pages/shopping/shopping.wxml-->
-<view>扫码购物</view>
+<view class="containers">
+  <view class="swipe">
+    <swiper autoplay interval="1000" indicator-dots circular>
+    <swiper-item>
+      <image src="/assets/wallhaven-x665kv_1920x1080.png" mode=""/>
+    </swiper-item>
+    <swiper-item>
+      <image src="/assets/wallhaven-y8o7yg_1920x1080.png" mode=""/>
+    </swiper-item>
+    <swiper-item>
+      <image src="/assets/微信图片_20230218163319.jpg" mode=""/>
+    </swiper-item>
+  </swiper>
+  </view>
+  <view class="big">
+    <view class="samll">
+      <image src="/assets/images/qrcode.png" mode=""/>
+      <text>请扫描商品条形码</text>
+    </view>
+  </view>
+</view>

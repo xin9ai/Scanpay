@@ -1,1 +1,38 @@
 /* pages/shopping/shopping.wxss */
+.swipe image {
+width: 100%;
+height: 400rpx;
+}
+.container{
+  width: 100%;
+  height: 100%;
+}
+.big{
+  margin:20rpx auto;
+  width: 280rpx;
+  height:280rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fce9bc;
+  border-radius: 50%;
+}
+.samll{
+  width: 250rpx;
+  height: 250rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color:#f5ba47 ;
+}
+.samll image{
+width: 150rpx;
+height: 150rpx;
+}
+text{
+  text-align: center;
+  width: 180rpx;
+  color: #f8d89c;
+}

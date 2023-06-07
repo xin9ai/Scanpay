@@ -1,4 +1,17 @@
-<!--pages/personal/personal.wxml-->
-<view>
-  个人中心
+<view class="container">
+ <view class="top">
+     <image src="/assets/wallhaven-1kmp21(1).jpg" mode=""/>
+   <view class="right">
+       <text>sokach</text>
+       <text>账户余额: <text class="txt">4元</text></text>
+     </view>
+ </view>
+ <view>
+   <navigator class="mar"> <image src="/assets/images/user/money.png" mode=""/> 我的钱包<image src="/assets/箭头.png" mode="" class="img" /></navigator>
+   <navigator> <image src="/assets/images/user/shop_order.png" mode=""/> 微店订单<image src="/assets/箭头.png" mode="" class="img" /></navigator>
+   <navigator> <image src="/assets/images/user/online_order.png" mode=""/> 优选订单<image src="/assets/箭头.png" mode="" class="img" /></navigator>
+   <navigator> <image src="/assets/images/user/address.png" mode=""/> 地址管理<image src="/assets/箭头.png" mode="" class="img" /></navigator>
+   <navigator> <image src="/assets/images/user/tel.png" mode=""/> 联系客服<image src="/assets/箭头.png" mode="" class="img" /></navigator>
+   <navigator class="mar"> <image src="/assets/images/user/feedback.png" mode=""/> 意见反馈<image src="/assets/箭头.png" mode="" class="img" /></navigator>
+ </view>
 </view>
