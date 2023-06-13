@@ -1,0 +1,7 @@
+<!--pages/cart/cart.wxml-->
+<view>
+  有数据
+</view>
+<view>
+  没数据
+</view>

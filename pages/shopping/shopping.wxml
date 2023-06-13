@@ -13,7 +13,7 @@
   </swiper>
   </view>
   <view class="big">
-    <view class="samll">
+    <view class="samll" bindtap="handleQrcode">
       <image src="/assets/images/qrcode.png" mode=""/>
       <text>请扫描商品条形码</text>
     </view>

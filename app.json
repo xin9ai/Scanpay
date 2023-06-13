@@ -2,7 +2,9 @@
   "pages":[
     "pages/shopping/shopping",
     "pages/product/product",
-    "pages/personal/personal"
+    "pages/personal/personal",
+    "pages/cart/cart"
+
   ],
   "window":{
     "backgroundTextStyle":"light",
