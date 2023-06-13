@@ -1,7 +1,5 @@
 <!--pages/cart/cart.wxml-->
-<view>
+<view wx:if="{{carts.length > 0}}">
   有数据
 </view>
-<view>
-  没数据
-</view>
+<empty wx:else></empty>

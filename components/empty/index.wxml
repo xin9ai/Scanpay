@@ -1,0 +1,8 @@
+<!--components/empty/index.wxml-->
+ <view class="e_cart">
+   <text>购物车是空的哦~</text>
+   <image src="/assets/images/cart.png" mode=""/>
+   <view class="scan">
+     扫一扫条形码
+   </view>
+ </view>

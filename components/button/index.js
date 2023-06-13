@@ -1,23 +1,18 @@
-// pages/cart/cart.js
-import storage from '../../request/storage'
-import stotage from '../../request/storage'
+// components/button/index.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-carts:[]
+
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
-let carts=storage.get('carts')
-this.setData({
-  carts
-})
+
   },
 
   /**
