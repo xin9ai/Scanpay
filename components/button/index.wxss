@@ -28,3 +28,10 @@ text{
   width: 180rpx;
   color: #f8d89c;
 }
+.scan{
+  width: 300rpx;
+  text-align: center;
+  border-radius:10rpx;
+  background-color: #ffb201;
+  line-height: 100rpx;
+}

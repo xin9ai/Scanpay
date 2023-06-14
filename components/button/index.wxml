@@ -1,7 +1,10 @@
 <!--components/button/index.wxml-->
-<view class="big">
-    <view class="samll" bindtap="handleQrcode">
-      <image src="/assets/images/qrcode.png" mode=""/>
-      <text>请扫描商品条形码</text>
-    </view>
+<view wx:if="{{type == 'cir'}}" class="big">
+  <view class="samll" bindtap="handleQrcode">
+    <image src="/assets/images/qrcode.png" mode="" />
+    <text>请扫描商品条形码</text>
   </view>
+</view>
+<view wx:if="{{type=='btn'}}" class="scan" bindtap="handleQrcode">
+  扫一扫条形码
+</view>
